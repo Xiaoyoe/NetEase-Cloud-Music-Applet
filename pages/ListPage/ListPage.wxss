@@ -1,0 +1,155 @@
+.container{
+    position: relative;
+}
+.kapian{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* background: rgba(255, 192, 203, 0.788); */
+    /* background: rgba(184, 178, 178, 0.801); */
+    background: rgba(255, 192, 203, 0.767);
+    /* background: linear-gradient(#fc67f9b2 5%,#f4c4f3,#fffcdc88); */
+    /* scale: 0.9; */
+    /* border-radius: 45rpx; */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+.mengbang{
+    position: absolute;
+    /* height: 200vh; */
+    height: 130%;
+    width: 100%;
+    opacity: 0;
+    background: cornsilk;
+}
+.kapianBox .imgsss{
+    height: 540rpx;
+    margin: 60rpx;
+    border-radius: 45rpx;
+    box-shadow: 0 10rpx 12rpx rgba(0, 0, 0, 0.466);
+}
+.text{
+    font-size: 40rpx;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30rpx;
+    /* border-bottom: 1rpx solid white; */
+}
+.jieshao{
+    font-size: 35rpx;
+    margin: 0 60rpx;
+    /* text-align: center; */
+}
+.topBox{
+    /* background: rgba(176, 224, 230, 0.753); */
+    /* background: #ffc0cb8e; */
+    /* box-shadow: 0 10rpx 20rpx rgba(255, 192, 203, 0.61); */
+    padding: 20rpx;
+    align-items: center;
+}
+.topBoxBox{
+    display: flex;
+    /* border-radius: 45rpx; */
+    padding: 20rpx;
+    /* background: rgb(255, 241, 235); */
+    box-shadow: 0rpx 0rpx 18rpx rgba(0, 0, 0, 0.384);
+    border-bottom: 1rpx solid rgba(15, 13, 13, 0.5);
+    border-radius: 15rpx;
+}
+.imgBox{
+    height: 300rpx;
+    border-radius: 45rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textBoxtext{
+    /* background: chocolate; */
+    height: 300rpx;
+    display: flex;
+    flex-direction: column;
+}
+.itemName{
+    margin-top: 45rpx;
+    padding: 10rpx;
+    font-size: 38rpx;
+    text-align: center;
+    font-weight: 600;
+}
+.itemText{
+    width: 330rpx;
+    margin: 20rpx;
+    padding: 25rpx;
+    /* background: rgba(255, 192, 203, 0.712); */
+    /* box-shadow: 0rpx 5rpx 2rpx rgba(0, 0, 0, 0.336); */
+    border-bottom: 1rpx solid rgba(134, 114, 114, 0.37);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    /* border-radius: 15rpx; */
+}
+/* 文本过长的进行不换行 隐藏 多出的文本变成省略号 */
+/* white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis; */
+.imageBOx{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageBOx>.imgItem{
+    border-radius: 25rpx;
+    width:260rpx;
+    height: 260rpx;
+    box-shadow: 0rpx 5rpx 15rpx rgba(0, 0, 0, 0.425);
+}
+/* 歌曲列表 */
+.textList{
+    font-size: 40rpx;
+    font-weight: 600;
+    /* margin-left: 15rpx; */
+    margin-top: 25rpx;
+    /* margin-right: 15rpx; */
+    /* border: 1px solid pink; */
+    border-bottom: 1rpx solid rgba(241, 117, 117, 0.356);
+}
+.songListBox{
+    box-sizing: border-box;
+}
+.SongListItem{
+    height: 150rpx;
+    /* background: cornflowerblue; */
+    margin: 20rpx 0;
+    /* border-top: 1rpx solid rgba(61, 57, 57, 0.507); */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 0 10rpx;
+    flex-direction: column;
+    /* background: rgba(255, 192, 203, 0.555); */
+    box-shadow: 0 10rpx 8rpx rgba(231, 182, 187, 0.61);
+}
+.go{
+    position:absolute;
+    right: 40rpx;
+    height: 50rpx;
+    background:pink;
+    width: 50rpx;
+    z-index: -1;
+    border-radius: 15rpx;
+}
+.itemSong{
+    /* margin-left: 15rpx; */
+    margin: 0 15rpx;
+    font-size: 40rpx;
+}
+.itemSinger{
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    font-size: 30rpx;
+}
+

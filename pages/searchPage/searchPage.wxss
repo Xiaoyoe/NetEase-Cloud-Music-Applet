@@ -1,0 +1,270 @@
+/* pages/searchPage/searchPage.wxss */
+.container{
+    /* "navigationBarBackgroundColor": "#fc67fa", */
+    /* background: #ffc0cb; */
+    /* background: linear-gradient(#fc67fa 5%,#f4c4f3,#fffcdc); */
+    min-height: 100vh;
+}
+/* 搜索框 */
+.inputBox{
+  /* margin-top: 50rpx; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  background: rgba(237, 241, 241, 0.63);
+  /* border-radius: 100rpx; */
+  /* border-radius: 0 45rpx 0 45rpx; */
+  border-radius: 0 0 45rpx 45rpx;
+  margin: 0 30rpx;
+}
+.searchInput{
+    /* border-radius: 100rpx; */
+    /* background: rgba(224, 213, 214, 0.938); */
+    width: 600rpx;
+    height: 100rpx;
+    margin-left: 20rpx;
+    /* text-align: center; */
+    /* background: yellow; */
+    margin: 0 50rpx;
+}
+/* 搜索icon */
+.icon {
+  width: 60rpx;
+  margin-right: 30rpx;
+  height: 60rpx;
+  /* background: pink; */
+  /* border-radius: 50%; */
+}
+/* 滑块视图 */
+.swiperBox{
+    min-height: 100vh;
+}
+.scrollView{
+    height: 100%;
+}
+/* 搜索分类盒子 */
+.classItemBox{
+    display: flex;
+}
+.classItemBox .classItem{
+    flex: 1;
+    border-bottom: 1px solid rgba(173, 101, 101, 0.397);
+    text-align: center;
+    margin: 10rpx 30rpx 0 30rpx;
+    padding: 20rpx;
+    font-size: 38rpx;
+}
+.classItemactive{
+    background: rgba(248, 224, 224, 0.575);
+    /* box-sizing: border-box;
+    box-shadow: 0 10rpx 15rpx pink; */
+    text-align: center;
+    color: pink;
+    margin: 10rpx 30rpx 0 30rpx;
+    padding: 20rpx;
+    font-size: 38rpx;
+    flex: 1;
+    border-radius: 0 45rpx 0 45rpx;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.397);
+}
+/* 搜索信息数据 */
+/* 歌曲列表的样式 */
+.songListBox{
+    /* color: white; */
+    border-radius: 50rpx 50rpx 0 0;
+}
+.songListBox .SongListItem{
+    /* border: 1rpx solid white; */
+    border-bottom: 1rpx solid rgba(0, 0, 0, 0.199);
+    padding: 30rpx 10rpx;
+    margin: 30rpx;
+    /* background: pink; */
+    /* text-align: center; */
+    border-radius: 50rpx 50rpx 0 0;
+    /* box-shadow: rgb(194, 151, 151) 10rpx 10rpx 50rpx 10rpx; */
+}
+.songListBox>.itemSong{
+    font-size: 45rpx;
+    /* color: rgb(68, 160, 114); */
+}
+.songListBox>.itemSinger{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+    color: blanchedalmond;
+}
+/* 歌单样式 */
+.playlistsBox>.playlists{
+    border-bottom: 1rpx solid rgb(255, 255, 255);
+    margin: 20rpx;
+    background: rgba(255, 255, 255, 0.562);
+    border-radius: 25rpx;
+    box-shadow: 0 12rpx 25rpx rgba(92, 80, 80, 0.384);
+    display: flex;
+}
+.playlistsItem{
+    display: flex;
+    align-items: center;
+}
+.playlistsItem>.ImgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200rpx;
+    height: 200rpx;
+}
+.playlistsItem>.ImgBox>.ItemImg{
+    width: 170rpx;
+    height: 170rpx;
+    border-radius: 15rpx;
+    margin-left: 10rpx;
+}
+.playlistsItem>.itemSong{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.Itemsicon{
+    position: absolute;
+    width:40rpx;
+    height: 40rpx;
+    background: #f89aa8;
+    border-radius: 20rpx;
+    right: 40rpx;
+    margin-top: 140rpx;
+}
+/* 专辑样式 */
+.albumsBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.albumsList{
+    display: flex;
+    width: 50%;
+    /* background: chocolate; */
+    text-align: center;
+}
+.albumsList>.albumsItem{
+    /* background: white; */
+    padding: 30rpx;
+    border-bottom: 1rpx solid rgba(228, 99, 196, 0.137);
+    /* margin: 30rpx; */
+}
+.albumsItem>.ImgBox{
+    width: 300rpx;
+    height: 300rpx;
+}
+.albumsItem>.ImgBox>.ItemImg{
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 45rpx;
+    box-shadow: 10rpx 10rpx 20rpx rgba(110, 104, 104, 0.479);
+}
+.albumsTextBox{
+    text-align: center;
+}
+.albumsTextBox>.itemSong{
+    margin: 15rpx 0;
+    font-size: 35rpx;
+    font-weight: 600;
+}
+/* 歌手样式 */
+.SingerListBox>.SingerList{
+    border-bottom: 1rpx solid rgb(255, 255, 255);
+    margin: 20rpx;
+    padding: 20rpx;
+    /* background: rgba(255, 192, 203, 0.541); */
+    border-radius: 25rpx;
+}
+.SingerListItem{
+    display: flex;
+    padding: 20rpx;
+    border-radius: 45rpx;
+    border-bottom: 1rpx solid rgba(43, 40, 40, 0.178);
+    box-shadow:5rpx 10rpx 20rpx rgba(0, 0, 0, 0.212);
+}
+.SingerListItem>.ImgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200rpx;
+    height: 200rpx;
+}
+.SingerListItem>.ImgBox>.ItemImg{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 50%;
+    box-shadow: 10rpx 10rpx 25rpx rgba(0, 0, 0, 0.473);
+}
+.SingerListItem>.itemSong{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 45rpx;
+    flex-direction: column;
+}
+.itemSong>.itemSong2{
+    font-size: 25rpx;
+}
+/* 热搜盒子 */
+.textHot{
+    /* border-top: 1rpx solid rgba(0, 0, 0, 0.404); */
+    font-size: 42rpx;
+    font-weight: 600;
+    padding: 10rpx;
+    margin-top: 30rpx;
+    /* text-align: center; */
+}
+.IFSearchBox{
+    /* background:pink; */
+    height: 100%;
+}
+.HotList{
+    /* background: powderblue; */
+    margin: 30rpx;
+    /* text-align: center; */
+    border-bottom: 1rpx solid rgba(0, 0, 0, 0.411);
+    padding: 30rpx;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.iconImg{
+    width: 30rpx;
+    height: 25rpx;
+    margin-left: 10rpx;
+}
+.itemText{
+    font-size: 24rpx;
+    color: rgba(49, 46, 46, 0.795);
+}
+/* 搜索记录 */
+.searchHistory{
+    height: 100%;
+    /* background:pink; */
+    padding: 10rpx;
+    margin: 30rpx;
+}
+.searchHistoryBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchHistoryItem{
+    padding:6rpx;
+    /* background: lightblue; */
+    margin: 6rpx;
+}
+.textHistory{
+    font-size: 36rpx;
+    font-weight: 600;
+    padding: 10rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.clear{
+    font-size: 34rpx;
+}

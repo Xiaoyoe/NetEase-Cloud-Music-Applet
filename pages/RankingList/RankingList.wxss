@@ -1,0 +1,93 @@
+/* pages/RankingList/RankingList.wxss */
+.container{
+    min-height: 100vh;
+    /* background: pink; */
+}
+.OfficialList{
+    text-align: center;
+    font-size: 45rpx;
+    margin: 20rpx;
+    font-weight: 600;
+}
+.containerBox{
+    display: flex;
+    flex-direction: column;
+}
+.RankingList{
+    height: 100%;
+    position: relative;
+    /* background: lightcyan; */
+}
+.RanKingItem{
+    /* background: rgb(143, 240, 143); */
+    border-bottom:1rpx solid rgba(104, 99, 99, 0.411);
+    box-shadow: 0rpx 8rpx 15rpx rgba(0, 0, 0, 0.411);
+    height: 100%;
+    margin: 10rpx 20rpx;
+    padding: 5rpx;
+    border-radius: 35rpx;
+}
+.itemTOP{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: white; */
+    padding: 5rpx;
+    margin: 15rpx;
+}
+.itemTOP>.topName{
+    margin: 0 12rpx;
+    font-size: 35rpx;
+    font-weight: 600;
+}
+.itemTOP>.topState{
+    margin: 0 12rpx;
+    font-size: 30rpx;
+}
+.itemCenter{
+    display: flex;
+    /* justify-content: space-between; */
+    background: white;
+    padding: 20rpx;
+    margin: 15rpx;
+}
+.itemImgBox>.itemImg{
+    height: 200rpx;
+    width: 200rpx;
+}
+.itemRanKingItemBIGBox{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 30rpx;
+    /* margin-top: 30rpx; */
+    box-sizing: content-box;
+}
+.itemRanKingItemBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.BoxItem1, .BoxItem3 {
+  width: 400rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.BoxItem2{
+    width: 400rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 35rpx 0;
+}
+.cir{
+    position: absolute;
+    right: 30rpx;
+    bottom: 30rpx;
+    background: #f89aa8;
+    /* background: #e2c8cc; */
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 50%;
+}

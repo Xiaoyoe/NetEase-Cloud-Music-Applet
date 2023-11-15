@@ -1,0 +1,113 @@
+/* pages/My/My.wxss */
+.container{
+    height: 100%;
+    background: rgba(235, 229, 231, 0.623);
+}
+.box{
+    position: relative;
+    height: 100%;
+}
+.top{
+    background: white;
+    margin: 0 20rpx;
+    border-radius: 0 0 25rpx 25rpx;
+    box-shadow: 0 5rpx 1rpx rgba(165, 158, 158, 0.678);
+}
+.topBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgbox{
+    height: 200rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.cir1{
+    height: 50rpx;
+    width: 500rpx;
+    border-radius: 0 0 20rpx 0;
+    background: rgba(235, 229, 231, 0.623);
+}
+.cir2{
+    height: 50rpx;
+    width: 500rpx;
+    border-radius: 0 0 0 20rpx;
+    background: rgba(235, 229, 231, 0.623);
+}
+.img{
+    position: absolute;
+    height: 200rpx;
+    width: 200rpx;
+    border-radius: 50%;
+    top: 0rpx;
+    right:270rpx;
+    border: 1rpx solid rgba(219, 185, 185, 0.644);
+}
+.NameBox{
+    font-size: 40rpx;
+    padding: 20rpx;
+}
+/* 最近播放 */
+.centerBox{
+    border-radius: 35rpx;
+    height: 100%;
+    background: white;
+    margin: 30rpx 20rpx;
+    box-shadow: 0 5rpx 8rpx rgba(165, 158, 158, 0.678);
+}
+.recentlyPlayed{
+    font-size: 38rpx;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20rpx;
+}
+.recentlyPlayedBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30rpx 0;
+    border-top: 1rpx solid rgba(211, 164, 164, 0.295);
+}
+.itemImg{
+    height: 100%;
+}
+
+.itemImg>.imgs{
+    height: 200rpx;
+    width: 200rpx;
+    background: white;
+    border-radius: 8rpx;
+    box-shadow: 2rpx 2rpx 8rpx rgba(0, 0, 0, 0.39);
+}
+/* 底部 */
+.footerBox{
+    box-shadow: 0 5rpx 8rpx rgba(165, 158, 158, 0.678);
+    border-radius: 35rpx;
+    background: white;
+    margin: 0 20rpx;
+}
+.ItemBox{
+    padding: 30rpx;
+    margin: 10rpx 0;
+    border-bottom: 1rpx solid rgba(194, 186, 186, 0.26);
+}
+/* 按钮 */
+.buttonBox{
+    margin: 0 20rpx;
+    padding: 30rpx 0;
+}
+.buttonItem{
+    background: white;
+    padding: 30rpx;
+    border-radius: 25rpx;
+    text-align: center;
+}
+.buttonItem:active{
+    background: rgba(255, 192, 203, 0.692);
+}

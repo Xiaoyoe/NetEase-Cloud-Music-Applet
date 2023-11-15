@@ -1,0 +1,87 @@
+<!-- 播放器UI思路 -->
+<!-- 粉渐变色纯背景面板 -->
+<!-- 中间可正方形图片或圆形 然后给个投影样式 伪3D效果 -->
+<!-- 歌曲name 歌手name 进度条 配套播放按钮 -->
+<!-- 左下角右下角 原点贴地面的小圆点 可给功能循环随机 -->
+<!-- 页面标题要随着音乐id的名字进行改变 -->
+<view class="containerPlay">
+  <!-- 头部盒子 -->
+    <view class="header">
+      
+    </view>
+     <!-- 轮播组件 -->
+    <swiper class="swiperBox">
+      <!-- 第一页 -->
+      <swiper-item class="MusicPage">
+          <!-- 大盒子 -->
+            <view class="Box">
+              <!-- 中间盒子 -->
+              <view class="center">
+              <!-- 歌曲图片-->
+                <view class="centerBox">
+                  <view class="imageBox">
+                    <image class="picture" mode="aspectFill" src="{{imageSrc}}"/>
+                  </view>
+                </view>
+                <!-- 进度条和歌曲名称 歌手名字 -->
+                <view class="centerFooter">
+                  <view class="TextBox">
+                    <text class="text">{{MusicName}}</text>
+                    <text class="text">{{songerName}}</text>
+                  </view>
+                  <!-- 进度条区域 -->
+                  <view class="progressBar">
+                    <!-- 总进度条 -->
+                    <view class="AllProgress">
+                      <!-- 实时进度条 -->
+                      <slider bindchange="changeSlider" block-size="12"
+                       value="{{cNum}}" step="1" min="0" max="{{dNum}}" activeColor="red" backgroundColor="pink"></slider>
+                    </view>
+                    <view class="TextTime">
+                      <text class="startTime">{{currentTime}}</text>
+                      <text class="endTime">{{duration}}</text>
+                    </view>
+                  </view>
+                </view>
+              </view>
+              <!-- 底部盒子 -->
+              <view class="footer">
+                <view class="footerPlay">
+                  <image class="PlayIcon" bind:tap="OnclickChangeIfSwitch" src="{{IfSwitchSvg}}"/>
+                  <image class="PlayIcon" bind:tap="PlayBackSong" src="/icon/iconAll/svg/上一首歌.svg"/>
+                  <image class="PlayIcon" bind:tap="playMusic" src='{{isPlay?"../../icon/iconAll/svg/暂停.svg":"../../icon/iconAll/svg/播放.svg"}}'/>
+                  <image class="PlayIcon" bind:tap="PlaynextSong" src="/icon/iconAll/svg/下一首.svg"/>
+                  <!-- 关闭当前音频并返回上一页 -->
+                  <image class="PlayIcon" bind:tap="onClick" src="/icon/iconAll/svg/关于.svg"/>
+                </view>
+              </view>
+            </view>
+      </swiper-item>
+      <!-- 第二页 -->
+      <swiper-item class="LyricPage">
+        <view class="LyricMusic">
+          <view class="TextLyr">
+            <text class="LyrM">{{MusicName}}</text>
+            <text class="LyrN">{{songerName}}</text>
+          </view>
+          <!-- 总进度条 -->
+          <view class="AllProgress">
+          <!-- 实时进度条 -->
+            <slider block-size="10" class="slider2" bindchange="changeSlider" value="{{cNum}}" step="1" min="0" max="{{dNum}}" activeColor="red" backgroundColor="pink">
+            </slider>
+          </view>
+          <view class="LyricBox">
+            <scroll-view class="scrollBox" scroll-y="true" scroll-top="{{Header}}">
+                <!-- wx:for-index="in"  当前遍历时候的下标-->
+              <!-- <view  wx:for-index="in" wx:for="{{musicLyr}}" wx:key="in">
+                <view class="Lyr{{in==LrcIndex?'active':''}}">{{item}}</view>
+              </view> -->
+              <view wx:for="{{musicLyr}}" wx:key="in" wx:for-index="index" class="Lyr{{index==LrcIndex?'active':''}}">
+                <view>{{item[1]}}</view>
+              </view>
+            </scroll-view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/singerDetail/singerDetail.wxml-->
+<!-- 歌手图片板块 -->
+<view class="container">
+    <view class="box" wx:for="{{singerDatail}}" wx:key="index"> 
+        <view class="IMGBOX">
+        <image class="singerImg" src="{{item.picUrl}}" mode=""/>
+        <view class="singerName">
+        <view class="buttonBox">
+            <view class="b1">{{item.name}}</view>
+        </view>
+        </view>
+        <view class="buttonBox">
+            <view class="b2" bind:tap="GoSingerMessage">更多</view>
+        </view>
+        </view>
+        <!-- 最新音乐板块 -->
+        <view class="MusicList">
+                <view class="ListBox">
+                    <view class="hottext">热门歌曲</view>
+                    <view class="itemBox" wx:for="{{singerSong}}" wx:key="index" wx:for-index="in">
+                        <view class="textBox">
+                            <text class="musicN">{{item.name}}</text>
+                            <text class="songerN">{{item.ar[0].name}}---{{item.al.name}}</text>
+                        </view>
+                        <image class="playIMG" src="/icon/播放2.svg" data-index="{{in}}" bind:tap="GoPlay" mode=""/>
+                    </view>
+                </view>
+        </view>
+    </view>
+</view>
+<!-- <button type="primary" bind:tap="getHotMusic">获取</button> -->

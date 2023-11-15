@@ -1,0 +1,68 @@
+/* pages/singerMessage/singerMessage.wxss */
+.container{
+    /* background: rgb(207, 213, 214); */
+    background: rgb(245, 233, 233);
+    /* max-height: 100vh; */
+    height: 100vh;
+}
+.topBox{
+    border-radius: 0 0 35rpx 35rpx;
+    background: white;
+    margin: 0 20rpx;
+    box-shadow: 0rpx 10rpx 15rpx rgb(221, 189, 189);
+    padding: 10rpx;
+}
+.ImgBox{
+    display: flex;
+    margin-bottom: 30rpx;
+    justify-content: space-around;
+}
+.ImgBox>.Img{
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 50%;
+    box-shadow: 0 5rpx 25rpx rgba(231, 154, 154, 0.623);
+}
+.textBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 45rpx;
+}
+.textName{
+    font-size: 55rpx;
+}
+.textNames{
+    font-size: 42rpx;
+}
+/* 信息卡片 */
+.textSinger{
+    background: white;
+    padding: 20rpx;
+    border-radius: 0 45rpx 0 0;
+    margin: 50rpx 20rpx;
+    box-shadow: 0 10rpx 10rpx rgba(228, 186, 200, 0.589);
+
+}
+.text2{
+    font-size: 42rpx;
+    font-weight: 600;
+    margin: 10rpx 0;
+}
+/* 艺人简介 */
+.text3Box{
+    /* margin-top: 50rpx; */
+    margin: 50rpx 20rpx;
+    padding: 20rpx;
+    background: white;
+    box-shadow: 0 10rpx 10rpx rgba(228, 186, 200, 0.589);
+
+    border-radius: 0 45rpx 0 0;
+
+}
+.text3{
+    font-size: 42rpx;
+    font-weight: 600;
+    margin: 10rpx 0;
+}

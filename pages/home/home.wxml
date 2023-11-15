@@ -1,0 +1,45 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+    <view class="Box">
+        <!-- 轮播图 -->
+        <view class="Banner">
+            <swiper class="swiperBox" indicator-dots="true" autoplay="true" interval="2000" indicator-active-color="#ec4141" indicator-color="white">
+                <swiper-item class="swiperItem" wx:for="{{banners}}" wx:key="index">
+                    <image class="bannerImg" src="{{item.imageUrl}}" mode=""/>
+                </swiper-item>
+            </swiper>
+        </view>
+        <!-- 最新音乐板块 -->
+        <view class="MusicList">
+            <view class="hottext">最新歌曲</view>
+                <view class="ListBox">
+                    <view class="itemBox" wx:for="{{newDetail}}" wx:key="index"  wx:for-index="in">
+                        <view class="textBox">
+                            <text class="musicN">{{item.name}}</text>
+                            <text class="songerN">{{item.song.artists[0].name}}</text>
+                        </view>
+                        <image class="playIMG" bind:tap="GoPlay" data-index="{{in}}" src="/icon/homeSvg/selected/24gf-playCircle.png" mode=""/>
+                    </view>
+                </view>
+        </view>
+    </view>
+            <!-- 歌手板块 -->
+            <view class="HotBOX">
+            <view class="hottext2">热门歌手</view>
+            <view class="HotBox">
+            <!-- this确保每个项都有一个唯一的标识符，不受列表顺序的影响。当列表发生变化时，微信小程序可以更准确地追踪和更新每个项的状态，而不需要重新渲染整个列表 -->
+                <view class="Hot" wx:for="{{HSinger}}" wx:key="this" wx:for-index="in">
+                    <view class="Hotitem">
+                        <view class="hotImg">
+                            <image class="HotIMGG" src="{{item.picUrl}}" data-index="{{in}}" bind:tap="getIndexdata" mode=""/>
+                        </view>
+                        <view class="hotsinger">
+                            {{item.name}}
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    <!-- 测试按钮 -->
+    <!-- <button type="primary" bind:tap="getNewMusic">获取</button> -->
+</view>

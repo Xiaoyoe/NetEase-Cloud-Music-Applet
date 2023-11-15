@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<!-- 歌手介绍 -->
+<view class="container">
+  <view class="Box">
+    <view class="top">
+    <view class="topBox">
+        <view class="ImgBox">
+        <image class="Img" mode="aspectFill" src="{{SingerImg}}"></image>
+        <view class="textBox">
+          <view class="textName">{{SingerName}}</view>
+          <view class="textNames">{{SingerName2}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    <view class="center">
+      <view class="centerBox">
+        <!-- 基本信息 -->
+        <view class="textSinger">
+            <view class="MessageBox">
+                <view class="text2">
+                基本信息
+                </view>
+                <view class="text2Box">
+                <view>{{SingerName}}</view>
+                <view>{{SingerName2}}</view>
+                <view>{{SingerStatus}}</view>
+                </view>
+            </view>
+            
+        </view>
+        
+        <!-- 艺人简介 -->
+        <view class="text3Box">
+            <view class="text3">
+                艺人简介
+            </view>
+            <view class="textSingerMessage">
+            <view class="bigBox">
+                {{SingerBriefDesc}}
+            </view>
+        </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 获取歌手描述
+说明 : 调用此接口 , 传入歌手 id, 可获得歌手描述
+必选参数 : id: 歌手 id
+接口地址 : /artist/desc
+调用例子 : /artist/desc?id=6452 ( 周杰伦 )
+获取歌手详情
+说明 : 调用此接口 , 传入歌手 id, 可获得获取歌手详情
+必选参数 : id: 歌手 id
+接口地址 : /artist/detail
+调用例子 : /artist/detail?id=11972054 (Billie Eilish) -->

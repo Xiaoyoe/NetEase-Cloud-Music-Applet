@@ -1,0 +1,50 @@
+<view class="container">
+    <view class="box">
+        <view class="top">
+            <view class="imgbox">
+                <image class="img" src="{{userImg}}" mode=""/>
+                <view class="cir1"></view>
+                <view class="cir2"></view>
+            </view>
+            <view class="topBox">
+                <view class="NameBox">
+                    {{userName}}
+                </view>
+            </view>
+        </view>
+        <view class="center">
+            <view class="centerBox">
+                <view class="recentlyPlayed">
+                    最近播放
+                </view>
+                <view class="recentlyPlayedBox">
+                <view class="itemBox" wx:for="{{recentlyPlayList.Name}}" wx:key="this">
+                    <view class="itemImg">
+                        <image class="imgs" src="{{recentlyPlayList.img[index]}}" mode=""/>
+                    </view>
+                    <view class="itemName">
+                        {{item}}
+                    </view>
+                </view>
+                </view>
+            </view>
+        </view>
+        <view class="footerBox">
+                <view class="ItemBox">
+                    我的歌单
+                </view>
+                <view class="ItemBox">
+                    喜欢音乐
+                </view>
+                <view class="ItemBox">
+                    我的收藏
+                </view>
+        </view>
+
+        <view class="buttonBox" bind:tap="IfLogin">
+                <view class="buttonItem">
+                    {{LoginOrExit}}
+                </view>
+        </view>
+    </view>
+</view>

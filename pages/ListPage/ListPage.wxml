@@ -1,0 +1,57 @@
+<!--pages/ListPage/ListPage.wxml-->
+<!-- 渲染专辑或者歌单的页面 -->
+<view class="container">
+    <view class="kapian" wx:if="{{ifKapian}}">
+        <view class="kapianBox">
+        <view class="mengbang" bind:tap="IFShow"></view>
+            <view>
+                <image class="imgsss" src="{{ListImageurl}}" mode=""/>
+            </view>
+            <view class="text">
+                歌单介绍
+            </view>
+            <view class="jieshao" wx:for="{{Listdescription}}" wx:key="this">
+                {{item}}
+            </view>
+        </view>
+    </view>
+    <view class="topBox">
+        <view class="topBoxBox">
+        <!-- 传过来的图片 -->
+        <view class="imgBox">
+            <view class="imageBOx">
+                <image class="imgItem" src="{{ListImageurl}}" mode=""/>
+            </view>
+        </view>
+        <!-- 传过来的歌单或者专辑名字 -->
+        <view class="textBoxtext" bind:tap="IFShow">
+            <view class="itemName">
+                {{Listname}}
+            </view>
+            <view class="itemText">
+                {{Listdescription}}
+            </view>
+        </view>
+        </view>
+    </view>
+    <view class="textList">
+        歌曲列表
+    </view>
+    <view class="listBox">
+        <view class="list">
+                <view class="songlistView">
+                        <view class="songListBox">
+                            <view class="SongList" wx:key="this" wx:for="{{MusicList}}">
+                            <view class="SongListItem" bind:tap="GoPlay" data-index="{{index}}" data-SongID="{{item.id}}" data-Singer="{{item.ar[0].name}}">
+                                <view class="itemSong">{{item.name}}</view>
+                                <view class="itemSinger">{{item.ar[0].name}}</view>
+                                <view class="go">
+                                    <!-- 图标点 -->
+                                </view>
+                            </view> 
+                        </view>
+                        </view>
+                </view>
+        </view>
+    </view>
+</view>

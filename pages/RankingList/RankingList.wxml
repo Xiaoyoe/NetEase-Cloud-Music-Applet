@@ -1,0 +1,36 @@
+<!-- 排行榜页 -->
+<view class="container">
+<!-- 官方排行榜 -->
+    <view class="OfficialList">
+        官方排行榜
+    </view>
+    <view class="containerBox">
+        <view class="RankingList" bind:tap="GoListPage" wx:for="{{RanKingALL}}" wx:key="this" data-PlayListID="{{item.id}}" data-index="{{index}}" data-Name="{{item.name}}" data-Description="{{item.description}}" data-imageurl="{{item.coverImgUrl}}">
+            <view class="RanKingItem">
+                <view class="itemTOP">
+                    <view class="topName">{{item.name}}</view>
+                    <view class="topState">{{item.updateFrequency}}</view>
+                </view>
+                <view class="itemCenter">
+                    <view class="itemImgBox">
+                        <image class="itemImg" src="{{item.coverImgUrl}}"></image>
+                    </view>
+                    <view class="itemRanKingItemBIGBox">
+                        <view class="itemRanKingItemBox">
+                            <view class="BoxItem1">
+                            {{item.tracks[0].first}}--{{item.tracks[0].second}}
+                            </view>
+                            <view class="BoxItem2">
+                            {{item.tracks[1].first}}--{{item.tracks[1].second}}
+                            </view>
+                            <view class="BoxItem3">
+                            {{item.tracks[2].first}}--{{item.tracks[2].second}}
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="cir"></view>
+        </view>
+    </view>
+</view>

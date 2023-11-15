@@ -1,0 +1,115 @@
+/* 轮播图 */
+.container{
+    height: 100%;
+    /* background: pink; */
+    width: 100%;
+}
+.Box{
+    margin: 10rpx;
+}
+.swiperBox{
+    background: lightyellow;
+    margin: 10rpx 0;
+}
+.swiperItem{
+    width: 100%;
+}
+.swiperItem .bannerImg{
+    width: 100%;
+    height: 100%;
+}
+/* 歌手板块 */
+.HotBox{
+    display: flex;
+    /* 开启滚动 */
+    overflow: auto; 
+    /* height: 300rpx; */
+    /* background: pink; */
+    height: 100%;
+    align-items: center;
+}
+/* 隐藏滚动条 */
+.HotBox::-webkit-scrollbar {
+    width: 0.5rpx;
+    height: 0.5rpx;
+}
+.hottext{
+    margin-top: 15rpx;
+    font-size: 42rpx;
+    font-weight: 800;
+    /* background: pink; */
+    /* text-align: center; */
+}
+.hottext2{
+    margin-top: 15rpx;
+    font-size: 42rpx;
+    font-weight: 800;
+    /* background: pink; */
+    text-align: center;
+}
+.Hot{
+    /* background: lightpink; */
+    width: 100%;
+}
+.Hotitem{
+    margin:auto 10rpx;
+    overflow: hidden;
+    /* background: pink; */
+}
+.hotImg .HotIMGG{
+    margin-top:30rpx;
+    width: 230rpx;
+    height: 230rpx;
+    /* background: pink; */
+    border-radius: 45rpx;
+    /* border: 1rpx solid #f89aa8; */
+    box-shadow: 0rpx 8rpx 18rpx #80747670;
+    /* border-bottom: 1rpx solid #f89aa8; */
+}
+.hotsinger{
+    width: 230rpx;
+    text-align: center;
+    /* background: yellow; */
+    /* 文本过长的进行不换行 隐藏 多出的文本变成省略号 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* border-bottom: 1rpx solid #f89aa863; */
+}
+/* 最新音乐板块 */
+.itemBox{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 120rpx;
+    /* background: yellow; */
+    margin: 10rpx;
+    position: relative;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.textBox{
+    margin-left: 10rpx;
+    display: flex;
+    flex-direction: column;
+}
+.itemBox .playIMG{
+    height: 65rpx;
+    width: 65rpx;
+    position: absolute;
+    right: 10rpx;
+}
+.musicN{
+    /* color: black; */
+    /* font-weight: 600; */
+    color: rgb(0, 0, 0);
+    font-size: 35rpx;
+    width: 600rpx;
+    /* background: pink; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.songerN{
+    font-size: 25rpx;
+    color: rgb(116, 78, 78);
+}

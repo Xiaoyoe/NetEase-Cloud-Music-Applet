@@ -1,0 +1,95 @@
+/* pages/singerDetail/singerDetail.wxss */
+/* 歌手名字 */
+.singerName{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 50rpx;
+    font-weight: 600;
+    text-align: center;
+    background: white;
+}
+.buttonBox{
+    font-size: 35rpx;
+    line-height: 80rpx;
+    text-align: center;
+    color: black;
+}
+.b1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 560rpx;
+    /* left: 300rpx; */
+    /* left: -20rpx; */
+    border-radius: 0 20rpx 0 0;
+    background: rgb(255, 255, 255);
+}
+.b2{
+    width: 180rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 550rpx;
+    right: 0;
+    border-radius: 20rpx 0 0 0;
+    margin-top: 10rpx;
+    background: rgb(255, 255, 255);
+    font-weight: 800;
+}
+/* 歌手图片 */
+.IMGBOX{
+    height: 600rpx;
+    background: pink;
+}
+.IMGBOX .singerImg{
+    width: 100%;
+    height: 100%;
+}
+/* 最新音乐板块 */
+.hottext{
+    font-weight: 800;
+    font-size: 38rpx;
+    margin: 20rpx 0 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    text-align: center;
+}
+.itemBox{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 120rpx;
+    /* background: yellow; */
+    margin: 10rpx;
+    position: relative;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.textBox{
+    margin-left: 10rpx;
+    display: flex;
+    flex-direction: column;
+}
+.itemBox .playIMG{
+    height: 65rpx;
+    width: 65rpx;
+    position: absolute;
+    right: 10rpx;
+}
+.musicN{
+    /* color: black; */
+    /* font-weight: 600; */
+    color: rgb(0, 0, 0);
+    font-size: 35rpx;
+    width: 600rpx;
+    /* background: pink; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.songerN{
+    font-size: 25rpx;
+    color: rgb(116, 78, 78);
+}

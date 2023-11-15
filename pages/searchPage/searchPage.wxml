@@ -1,0 +1,131 @@
+<!--pages/searchPage/searchPage.wxml-->
+<!-- 搜索页面 -->
+<view class="container">
+<!-- 搜索页面的盒子 -->
+    <view class="Box">
+    <!-- <view class="text">搜索</view> -->
+        <!-- 搜索输入框 -->
+        <view class="inputBox">
+            <input placeholder="请输入内容" value="{{inputData}}" class="searchInput" bindinput="searchInput" type="text"/>
+            <view>
+                <image class="icon" bind:tap="getSearchAPI" src="/icon/iconAll/svg/查找.svg" mode=""/>
+            </view>
+        </view>
+        <!-- 滑块试图容器 -->
+        <view class="SwiperViewBox" wx:if="{{IfSearch}}">
+        <!-- 搜索分类 -->
+            <view class="classItemBox">
+                <view class="classItem{{index === currentIndex?'active':''}}" wx:for="{{SearchClass}}" wx:key="this" data-index="{{index}}" bind:tap="OnclickChange">{{item}}</view>
+            </view>
+            <swiper class="swiperBox" current="{{currentIndex}}" bindchange="swiperChange"  layout-type="tinder">
+        <!-- 搜索信息数据 -->
+        <!-- 歌曲 -->
+            <swiper-item class="swiperitem_Music">
+                <scroll-view class="scrollView" scroll-y="true">
+                <view class="songlistView">
+                        <view class="songListBox">
+                        <view class="SongList" wx:for="{{songList}}" wx:key="this">
+                        
+                        <view class="SongListItem" bind:tap="GoPlay" data-index="{{index}}" data-SongID="{{item.id}}" data-Singer="{{item.artists[0].name}}">
+                            <view class="itemSong">{{item.name}}</view>
+                            <view class="itemSinger">{{item.artists[0].name}}---{{item.album.name}}</view>
+                        </view> 
+                        </view>
+                        </view>
+                </view>
+                </scroll-view>
+            </swiper-item>
+            <!-- 歌单 -->
+            <swiper-item class="swiperitem_Music">
+                <scroll-view class="scrollView" scroll-y="true">
+                <view class="songlistView">
+                        <view class="playlistsBox">
+                        <view class="playlists" wx:for="{{playlists}}" wx:key="this">
+                        <view class="playlistsItem" bind:tap="GoPlayLists" data-index="{{index}}" data-playlistsID="{{item.id}}" data-Name="{{item.name}}" data-Description="{{item.description}}" data-imageurl="{{item.coverImgUrl}}">
+                            <view class="ImgBox">
+                                <image class="ItemImg" src="{{item.coverImgUrl}}" mode=""/>
+                            </view>
+                            <view class="itemSong">{{item.name}}</view>
+                        </view> 
+                        <view class="Itemsicon">
+                            <!-- iconCSS图标 -->
+                        </view>
+                        </view>
+                        </view>
+                </view>
+                </scroll-view>
+            </swiper-item>
+            <!-- 专辑 -->
+            <swiper-item class="swiperitem_Music">
+                <scroll-view class="scrollView" scroll-y="true">
+                <view class="songlistView">
+                        <view class="albumsBox">
+                        <view class="albumsList" wx:for="{{albums}}" wx:key="this">
+                        <view class="albumsItem" bind:tap="GoAlbums" data-index="{{index}}" data-albumsID="{{item.id}}" data-name="{{item.name}}" data-Singer="{{item.artists[0].name}}" data-Description="{{item.description}}" data-imageurl="{{item.picUrl}}">
+                            <view class="ImgBox">
+                                <image class="ItemImg" src="{{item.picUrl}}" mode=""/>
+                            </view>
+                            <view class="albumsTextBox">
+                                <view class="itemSong">{{item.name}}</view>
+                                <view class="itemSinger">{{item.artists[0].name}}</view>
+                            </view>
+                        </view> 
+                        </view>
+                        </view>
+                </view>
+                </scroll-view>
+            </swiper-item>
+            <!-- 歌手 -->
+            <swiper-item class="swiperitem_Music">
+                <scroll-view class="scrollView" scroll-y="true">
+                    <view class="songlistView">
+                        <view class="SingerListBox">
+                        <view class="SingerList" wx:for="{{artists}}" wx:key="this">
+                        
+                        <view class="SingerListItem" bind:tap="GoSingerMessage" data-index="{{index}}" data-singerid="{{item.id}}" data-Name="{{item.name}}"  data-imageurl="{{item.picUrl}}">
+                            <view class="ImgBox">
+                                <image class="ItemImg" src="{{item.picUrl}}" mode="aspectFill"/>
+                            </view>
+                            <view class="itemSong">
+                                <view>{{item.name}}</view>
+                                <view class="itemSong2">{{item.alias[0]}}</view>
+                            </view>
+                            
+                        </view> 
+                        </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </swiper-item>
+        </swiper>
+        </view>
+        <!-- 切换 -->
+        <view class="WxIf" wx:if="{{IfHot}}">
+            <!-- 搜索记录 -->
+        <view class="searchHistory" wx:if="{{IFHistory}}">
+            <view class="textHistory">
+                搜索记录
+                <view class="clear" bind:tap="clearHistory">清空</view> 
+            </view> 
+            <view class="searchHistoryBox">
+                <view class="searchHistoryItem" bind:tap="HistoryItem" wx:for="{{searchHistoryList}}" wx:key="this" data-index="{{index}}" data-name="{{item}}">
+                    {{item}}
+                </view>
+            </view>
+        </view>
+        <!-- 热搜 -->
+        <view class="IFSearchBox">
+        <view class="textHot">热搜榜</view> 
+            <view class="HotListBox" bind:tap="PostInput" wx:for="{{HotList}}" data-name="{{item.searchWord}}" wx:key="this">
+                <view class="HotList">
+                    <view class="item">{{item.searchWord}}
+                        <image class="iconImg" wx:if="{{item.iconUrl}}" src="{{item.iconUrl}}"></image>
+                        <view class="itemText">{{item.content}}</view>
+                    </view>
+                    <view class="index">{{index+1}}</view>
+                </view>
+            </view>
+        </view>
+        </view>
+    </view>
+</view>
