@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/My/My",
+
+    "pages/RankingList/RankingList",
+    "pages/singerMessage/singerMessage",
+    "pages/searchPage/searchPage",
+    "pages/ListPage/ListPage",
+    "pages/play/play",
+    "pages/singerDetail/singerDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f89aa8",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+      "list": 
+      [
+          {
+            "pagePath": "pages/home/home",
+            "text": "Home",
+            "iconPath": "/icon/homeSvg/normal/首页 (1).png",
+            "selectedIconPath": "/icon/homeSvg/selected/首页.png"
+          },
+          {
+            "pagePath": "pages/searchPage/searchPage",
+            "text": "searchPage",
+            "iconPath": "/icon/homeSvg/normal/搜索.png",
+            "selectedIconPath": "/icon/homeSvg/selected/搜索.png"
+          },
+          {
+            "pagePath": "pages/RankingList/RankingList",
+            "text": "RanKing",
+            "iconPath": "/icon/homeSvg/normal/排行榜.png",
+            "selectedIconPath": "/icon/homeSvg/selected/排行榜.png"
+          },
+          {
+            "pagePath": "pages/My/My",
+            "text": "My",
+            "iconPath": "/icon/homeSvg/normal/我我我 (1).png",
+            "selectedIconPath": "/icon/homeSvg/selected/我我我.png"
+          }
+     ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
