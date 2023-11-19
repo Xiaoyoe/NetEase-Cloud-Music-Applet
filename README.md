@@ -6,11 +6,31 @@
 
 #### 预览效果
 ##### 主页图：
-![image](https://github.comgithub.com/Xiaoyoe/Music/blob/master/worksShow/Home.png
 ![image](worksShow/Home.png)
-<!-- ![](https://huatu.98youxi.com/markdown/work/uploads/upload_eb60d35c1b2131d0810bd14499d3ec1a.png) -->
+![image](worksShow/Home_HotSinger.png)
 
-<!-- ![image](https://github.comgithub.com/Xiaoyoe/Music/blob/master/要传入的图片的名称.png -->
+##### 播放页面图：
+![image](worksShow/Play01.png)
+![image](worksShow/Play02.png)
+
 ##### 搜索页图：
+![image](worksShow/SearchPage01.png)
+![image](worksShow/SearchPage02.png)
+![image](worksShow/SearchPage03.png)
+![image](worksShow/SearchPage04.png)
+![image](worksShow/SearchPage05.png)
+
+##### 歌手页详细图：
+![image](worksShow/SingerPage.png)
+![image](worksShow/SingerMessage.png)
+
+##### 歌单专辑界面图：
+![image](worksShow/ListPage.png)
+![image](worksShow/ListMessagePage.png)
+
 ##### 排行页图：
+![image](worksShow/RanKing.png)
+![image](worksShow/RanKing.png)
+
 ##### My：
+![image](worksShow/My.png)
