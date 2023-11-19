@@ -3,15 +3,12 @@
 
 网易云官方Api：https://163-music-api-doc.heheda.top
 含接口安装地址与接口文档。
-## Desktop Preview
 
-| light                                                            | dark                                                           |
-|------------------------------------------------------------------|----------------------------------------------------------------|
-| ![playlist](https://boyan01.github.io/quiet/playlist_light.png ) | ![playlist](https://boyan01.github.io/quiet/playlist_dark.png) |
-| ![playing](https://boyan01.github.io/quiet/playing_light.png)    | ![playing](https://boyan01.github.io/quiet/playing_dark.png)   |
 ## 预览效果
 
 ## 主页图：
+
+|------------------------------|----------------------------------------|
 | ![image](worksShow/Home.png) | ![image](worksShow/Home_HotSinger.png) |
 
 ## 播放页面图：
