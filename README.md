@@ -9,24 +9,24 @@ Official Api: https://163-music-api-doc.heheda.top
 Contains interface installation address and interface documentation.
 
 # 预览效果
-## Home：
+## Home
 | ![image](worksShow/Home.png) | ![image](worksShow/Home_HotSinger.png) |
 
-## Play：
+## Play
 |![image](worksShow/Play01.png) | ![image](worksShow/Play02.png) |
 
-## SearchPage：
+## SearchPage
 | ![image](worksShow/SearchPage01.png) | 
 ![image](worksShow/SearchPage02.png) | ![image](worksShow/SearchPage03.png) |
 ![image](worksShow/SearchPage04.png) | ![image](worksShow/SearchPage05.png) |
 
-## SingerMessage：
+## SingerMessage
 | ![image](worksShow/SingerPage.png) | ![image](worksShow/SingerMessage.png) |
 
-## ListPage：
+## ListPage
 | ![image](worksShow/ListPage.png) | ![image](worksShow/ListMessagePage.png) |
-## RanKingListPage：
+## RanKingListPage
 | ![image](worksShow/RanKing.png) | ![image](worksShow/RanKing01.png) |
 
-## MyPage：
+## MyPage
 ![image](worksShow/My.png)
