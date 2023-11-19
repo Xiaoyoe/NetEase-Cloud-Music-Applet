@@ -30,7 +30,7 @@
 
 ##### 排行页图：
 ![image](worksShow/RanKing.png)
-![image](worksShow/RanKing.png)
+![image](worksShow/RanKing01.png)
 
 ##### My：
 ![image](worksShow/My.png)
