@@ -79,8 +79,6 @@ npm start
 - WXML/HTML5: 项目主体结构搭建
 - WXSS/CSS3：微信小程序样式/CSS3动画及样式
 - JavaScript: 小程序页面逻辑交互渲染
-
-
 - 项目目录结构
 
 ```html
@@ -108,7 +106,7 @@ npm start
 - QQ：1794025537
 - Email: 1794025537@qq.com / xiaoyoeer@gmail.com
 - 欢迎各位一起学习交流！！
-- 
+
 ## 💭问题
 
 本项目在初始搭建的时候，没有考虑到请求封装和数据整理。
@@ -127,8 +125,8 @@ npm start
 
 ### SearchPage
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage01.png) | 
-![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage02.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage03.png) |
-![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage04.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage05.png) |
+! [image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage02.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage03.png) |
+! [image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage04.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage05.png) |
 
 ### SingerMessage
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerPage.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerMessage.png) |
