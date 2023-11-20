@@ -7,6 +7,8 @@ API：https://163-music-api-doc.heheda.top
 
 含接口安装地址与接口文档。
 
+-----------------------------------------------------------------------
+
 Native applet based on NetEase cloud music real interface development.
 
 API：https://163-music-api-doc.heheda.top
@@ -131,7 +133,7 @@ npm start
 | ![image](worksShow/RanKing.png) | ![image](worksShow/RanKing01.png) |
 
 ### MyPage
-![image](worksShow/My.png)
+| ![image](worksShow/My.png) |
 
 ## 🌼最后
 如果觉得项目还不错的话 👏，就给个 star ⭐ 鼓励一下吧~ 蟹蟹~👋
