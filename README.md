@@ -84,21 +84,21 @@ npm start
 - 项目目录结构
 
 ```html
-    mo_music                        // 沫音乐
-    ├── components                  // 组件
-    ├── netease_api        		    // Node版本网易云音乐接口
+    ├── image                       // 图片(暂无)
     ├── pages                       // 小程序页面
-    │       └── index                 // 首页
-    │       └── login                 // 登录页
-    │       └── personal              // 个人中心
-    │       └── recommendSong         // 每日推荐
-    │       └── search                // 搜索页
-    │       └── songDetail            // 音乐详细页
-    │       └── video                 // 视频页
-    ├── utils                       // 工具
-    │       └── request.js            // 请求封装体
-    ├── static                      // 静态资源/图片
-    ```
+    │       └── ListPage            // 歌单/专辑列表页面
+    │       └── My                  // 个人中心
+    │       └── RankingList         // 排行榜页面
+    │       └── home                // 首页
+    │       └── play                // 播放页面
+    │       └── searchPage          // 搜索页面
+    │       └── singerDetail        // 歌手热门歌曲页面
+    │       └── singerMessage       // 歌手详细介绍页面
+    ├── icon                        // icon图标文件
+    │      └── homeSvg              // 导航栏图标
+    │      └── iconAll              // 播放图标与其他图标
+    ├── worksShow                   // 项目效果预览图片
+```
 
 
 ## 预览效果
