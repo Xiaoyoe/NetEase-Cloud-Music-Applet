@@ -7,7 +7,7 @@ API：https://163-music-api-doc.heheda.top
 
 含接口安装地址与接口文档。
 
------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 Native applet based on NetEase cloud music real interface development.
 
@@ -84,7 +84,7 @@ npm start
 - 项目目录结构
 
 ```html
-    ├── image                       // 图片(暂无)
+    ├── image                       // 图片
     ├── pages                       // 小程序页面
     │       └── ListPage            // 歌单/专辑列表页面
     │       └── My                  // 个人中心
@@ -103,21 +103,27 @@ npm start
 ## 🌊灵感来源/致谢
 非常感谢后台提供者@Binaryify所编写的后端接口，文档很完善简单，学习到了很多内容。
 
-## 💭声明
-本项目仅用于个人学习与学习分享，所有网易云相关字样版权与资源属于网易公司，勿用于商业及非法用途，如产生法律纠纷与本人无关。
-
 ## 😋About Me
 
 - QQ：1794025537
 - Email: 1794025537@qq.com / xiaoyoeer@gmail.com
 - 欢迎各位一起学习交流！！
+- 
+## 💭问题
 
-## 🔥预览效果（没有魔法可能看不见图片）
+本项目在初始搭建的时候，没有考虑到请求封装和数据整理。
+
+后续项目我会进行一个优化整理，本项目可做为一个参考学习。
+
+## 💭声明
+本项目仅用于个人学习与学习分享，所有网易云相关字样版权与资源属于网易公司，勿用于商业及非法用途，如产生法律纠纷与本人无关。
+
+## 🔥预览效果
 ### Home
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home_HotSinger.png) |
 
 ### Play
-|![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play01.png) | ![image](worksShow/Play02.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play02.png) |
+|![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play01.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play02.png) |
 
 ### SearchPage
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage01.png) | 
@@ -128,7 +134,7 @@ npm start
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerPage.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerMessage.png) |
 
 ### ListPage
-| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListPage.png) | ![image]([worksShow/ListMessagePage.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListMessagePage.png)) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListPage.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListMessagePage.png) |
 ### RanKingListPage
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/RanKing.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/RanKing01.png) |
 
@@ -136,4 +142,5 @@ npm start
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/My.png) |
 
 ## 🌼最后
+
 如果觉得项目还不错的话 👏，就给个 star ⭐ 鼓励一下吧~ 蟹蟹~👋
