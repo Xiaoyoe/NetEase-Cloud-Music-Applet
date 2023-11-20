@@ -3,17 +3,13 @@
 
 基于[网易云音乐](https://music.163.com/#/download)真实接口开发的原生小程序。
 
-Native applet based on NetEase cloud music real interface development.
-
-
-
-官方API：https://163-music-api-doc.heheda.top
-
-Official API: https://163-music-api-doc.heheda.top
-
-
+API：https://163-music-api-doc.heheda.top
 
 含接口安装地址与接口文档。
+
+Native applet based on NetEase cloud music real interface development.
+
+API：https://163-music-api-doc.heheda.top
 
 Contains interface installation address and interface documentation.
 
