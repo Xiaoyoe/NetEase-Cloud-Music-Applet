@@ -73,12 +73,12 @@ npm start
 
 ## 技术栈
 - 微信原生小程序开发
-- WX组件 & API: 使用原生架构建设
-- ajax：发起http请求
-- ES6：采用ES6语法。
-- HTML5: 项目主体结构搭建
-- JavaScript: 对网页行为进行编程
-- CSS3：CSS3动画及样式。
+- 微信小程序组件 & API: 使用原生架构建设 (https://developers.weixin.qq.com/miniprogram/dev/framework/)
+- NodeJs:数据后端调用
+- ES6：采用ES6语法
+- WXML/HTML5: 项目主体结构搭建
+- JavaScript: 小程序页面逻辑交互渲染
+- WXSS/CSS3：微信小程序样式/CSS3动画及样式
 
 
 - 项目目录结构
@@ -95,8 +95,8 @@ npm start
     │       └── singerDetail        // 歌手热门歌曲页面
     │       └── singerMessage       // 歌手详细介绍页面
     ├── icon                        // icon图标文件
-    │      └── homeSvg              // 导航栏图标
-    │      └── iconAll              // 播放图标与其他图标
+    │       └── homeSvg             // 导航栏图标
+    │       └── iconAll             // 播放图标与其他图标
     ├── worksShow                   // 项目效果预览图片
 ```
 
