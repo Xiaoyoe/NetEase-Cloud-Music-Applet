@@ -30,7 +30,7 @@ Contains interface installation address and interface documentation.
 ### 🛠️环境要求
 微信小程序
 NodeJS 14+环境
-网易云API后端接口(https://github.com/Binaryify/NeteaseCloudMusicApi)
+[网易云API后端接口](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 ### ⚙️运行后端接口
 ```sh
@@ -72,9 +72,9 @@ npm start
 - [x] 歌曲切换播放模式（随机播放/单曲循环/顺序播放）
 
 ## ❄️技术栈
-- 微信原生小程序开发 https://developers.weixin.qq.com/miniprogram/dev/framework/
+- [微信原生小程序开发](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 - 微信小程序组件 & API: 使用原生架构建设 
-- NodeJs:数据后端调用
+- NodeJs：数据后端调用
 - ES6：采用ES6语法
 - WXML/HTML5: 项目主体结构搭建
 - WXSS/CSS3：微信小程序样式/CSS3动画及样式
@@ -117,23 +117,23 @@ npm start
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home_HotSinger.png) |
 
 ### Play
-|![image]([worksShow/Play01.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play01.png)) | ![image]([worksShow/Play02.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play02.png)) |
+|![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play01.png) | ![image](worksShow/Play02.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play02.png) |
 
 ### SearchPage
-| ![image](worksShow/SearchPage01.png) | 
-![image](worksShow/SearchPage02.png) | ![image](worksShow/SearchPage03.png) |
-![image](worksShow/SearchPage04.png) | ![image](worksShow/SearchPage05.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage01.png) | 
+![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage02.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage03.png) |
+![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage04.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SearchPage05.png) |
 
 ### SingerMessage
-| ![image](worksShow/SingerPage.png) | ![image](worksShow/SingerMessage.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerPage.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/SingerMessage.png) |
 
 ### ListPage
-| ![image](worksShow/ListPage.png) | ![image](worksShow/ListMessagePage.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListPage.png) | ![image]([worksShow/ListMessagePage.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/ListMessagePage.png)) |
 ### RanKingListPage
-| ![image](worksShow/RanKing.png) | ![image](worksShow/RanKing01.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/RanKing.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/RanKing01.png) |
 
 ### MyPage
-| ![image](worksShow/My.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/My.png) |
 
 ## 🌼最后
 如果觉得项目还不错的话 👏，就给个 star ⭐ 鼓励一下吧~ 蟹蟹~👋
