@@ -114,7 +114,7 @@ npm start
 
 ## 🔥预览效果（没有魔法可能看不见图片）
 ### Home
-| ![image](worksShow/Home.png) | ![image](worksShow/Home_HotSinger.png) |
+| ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home_HotSinger.png) |
 
 ### Play
 |![image](worksShow/Play01.png) | ![image](worksShow/Play02.png) |
