@@ -117,7 +117,7 @@ npm start
 | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home.png) | ![image](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Home_HotSinger.png) |
 
 ### Play
-|![image](worksShow/Play01.png) | ![image](worksShow/Play02.png) |
+|![image]([worksShow/Play01.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play01.png)) | ![image]([worksShow/Play02.png](https://gitee.com/XiaoYoe/NetEase-Cloud-Music-Applet/raw/main/worksShow/Play02.png)) |
 
 ### SearchPage
 | ![image](worksShow/SearchPage01.png) | 
