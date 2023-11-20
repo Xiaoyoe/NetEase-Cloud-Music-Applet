@@ -30,17 +30,25 @@ Contains interface installation address and interface documentation.
 NodeJS 14+环境
 
 ### 运行
+```sh
+# 下载源码/切换到目录下/安装依赖
 $ git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
 $ cd NeteaseCloudMusicApi
 $ npm install
+
 或者
+
 $ git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
 $ cd NeteaseCloudMusicApi
 $ npm install
+```
 
+```sh
+# 运行
 $ node app.js
 或者
 npm start
+```
 
 ### 预览效果
 ## Home
