@@ -102,9 +102,11 @@ npm start
 非常感谢后台提供者@Binaryify所编写的后端接口，文档很完善简单，学习到了很多内容。
 
 ## 😋About Me
-
+👤小约
 - QQ：1794025537
 - Email: 1794025537@qq.com / xiaoyoeer@gmail.com
+-Gitee:https://gitee.com/XiaoYoe
+-Github:https://github.com/Xiaoyoe
 - 欢迎各位一起学习交流！！
 
 ## 🍭问题
