@@ -105,8 +105,8 @@ npm start
 👤小约
 - QQ：1794025537
 - Email: 1794025537@qq.com / xiaoyoeer@gmail.com
--Gitee:https://gitee.com/XiaoYoe
--Github:https://github.com/Xiaoyoe
+- Gitee:https://gitee.com/XiaoYoe
+- Github:https://github.com/Xiaoyoe
 - 欢迎各位一起学习交流！！
 
 ## 🍭问题
